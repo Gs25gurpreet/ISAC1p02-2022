@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.para1 {
+    color: green;
+    font-weight: bold;
+}
+
+.para2 {
+    color: orange;
+
+}
+
+.modified {
+    color: red;
+    vertical-align: super;
+}
+
+.para3 {
+    color: purple;
+}
+
+.modified2 {
+    color: yellow;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.red {
+    color: red;
+    font-size: 20px;
+}
