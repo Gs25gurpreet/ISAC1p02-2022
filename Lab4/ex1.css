@@ -1,0 +1,26 @@
+body {
+    background-color: blue;
+}
+.container { 
+    border: 3px solid black;
+}
+
+.text-div {
+    margin: 20px;
+    border: 2px solid aqua;
+    border-style:dashed;
+    padding: 4px;
+    font-weight: lighter;
+    font-family: Calibri;
+    color: red;
+    
+}
+
+.image {
+    width: 30%;
+    height: 30%;
+    border: 2px solid orange;
+    border-style: dashed;
+
+    padding: 20px;
+}
