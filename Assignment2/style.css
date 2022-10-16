@@ -1,0 +1,77 @@
+/* Changes color */
+.color-text {
+    color: red;
+}
+
+/* Changes size */
+.large-text {
+    font-size: 40px;
+}
+
+
+/* Changes font */
+.diff-font-text {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Transform case */
+.uppercase-text {
+    text-transform: uppercase;
+}
+
+.lowercase-text {
+    text-transform: lowercase;
+}
+
+.positioning {
+    font-weight: bold;
+    font-size: larger;
+}
+
+/* Absolute element */
+.absolute-elem {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid purple;
+}
+
+/* Relative Element */
+.relative-elem {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+
+/* Fixed Element */
+.fixed-elem {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid blue;
+}
+
+/* nested selector */
+p strong {
+    color: red;
+    font-size: larger;
+}
+
+/* grouped selector */
+h1, h2, h3 {
+    font-weight: 100;
+    font-family: "Comic Sans MS";
+}
+
+/* box model - margin, padding, etc. */
+.box {
+    padding: 100px;
+    border: solid 4px purple;
+    margin: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: purple;
+    font-size: 40px;
+}
