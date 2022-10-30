@@ -1,0 +1,72 @@
+header {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+}
+
+.logo {
+    min-width: 25px;
+    min-height: 25px;
+    background-color: grey;
+    display: inline;
+    margin: 10px;
+    padding: 20px; 
+    border-radius: 10px;
+}
+
+.text {
+    display: inline;
+}
+
+.quote {
+    background-color: grey;
+    opacity: 0.5;
+    min-height: 50px;
+    text-align: center;
+    align-items: center;
+    font-family: Helvetica;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+button {
+    padding: 10px;
+    border: 0px solid red;
+    background-color: grey;
+    margin-top: 20px;
+    opacity: 0.75;
+    border-radius: 10px;
+    
+}
+
+div[class*="col"] {
+    padding: 10px;
+}
+
+.col-3 {
+    width: 25%;
+    min-height: 200px;
+    border: 1px solid black;
+}
+
+.col-9 {
+    width: 75%;
+    min-height: 200px;
+    border: 1px solid black;
+}
+
+.col-6 {
+    width: 50%;
+    border: 1px solid grey
+}
