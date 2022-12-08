@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventure - Contact</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/stylesheets/contact.css">
+
+    <!-- Custom JS -->
+    <script src="./assets/scripts/contact.js"></script>
+
+     <!-- Ubuntu Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+       rel="stylesheet"
+     />
+</head>
+
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="navbar">
+                <ul>
+                  <li>
+                    <a href="">
+                      <img
+                        class="logo-image"
+                        src="./assets/images/logo-transparent-white.png"
+                        alt=""
+                      />
+                    </a>
+                  </li>
+                </ul>
+
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./destinations.html">Destinations</a></li>
+                    <li><a href="./contact.html">Get in Touch</a></li>
+                  </ul>
+
+                <div class="row">
+                    <div class="column">
+
+                        <h1 class="subheading-text">Get in Touch</h1>
+                        <div class="form-container">
+                            <form action="action_page.php" class="form-bg">
+
+                                <label class="form-label" for="fname">First Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            
+                                <label class="form-label" for="lname">Last Name</label>
+                                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            
+                                <label class="form-label" for="country">Country</label>
+                                <select id="country" name="country">
+                                  <option value="canada">Canada</option>
+                                  <option value="usa">USA</option>
+                                </select>
+                            
+                                <label class="form-label" for="subject">Subject</label>
+                                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                            
+                                <input type="submit" value="Submit" class="button">
+                            
+                              </form>
+                        </div>
+                    </div>
+                </div>
+    
+                
+              </div>
+        </div>
+    </div>
+</body>
+
+<footer class="footer">
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="./index.html">Home</a></li>
+      <li class="menu__item">
+        <a class="menu__link" href="./destinations.html">Destinations</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="./contact.html">Get in Touch</a>
+      </li>
+    </ul>
+    <!-- <p style="opacity: 0.75;">Made by Gurpreet Singh</p> -->
+    <p style="opacity: 0.75">© 2022 Aventure Ltd.</p>
+  </footer>
+
+
+</html>

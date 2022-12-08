@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  box-sizing: border-box;
+}
+
+/* .wrapper {
+  width: 1170px;
+  margin: auto;
+} */
+
+.header {
+  background: url(../images/banner-image.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  margin-top: 45px;
+  margin-right: 200px; 
+}
+
+li {
+  float: left;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.logo-image {
+  position: absolute;
+  top: 40px;
+  width: 217px;
+  height: 70px;
+}
+
+li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.banner-text {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: 20% 30%;
+  text-align: center;
+  font-size: 35px;
+}
+
+.section-text {
+  position: absolute;
+  width: 1903px;
+  height: 300px;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+}
+
+.section-2 {
+  margin-top: 50px;
+}
+
+.banner-text h1 {
+  position: relative;
+  left: 25%;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase; 
+}
+
+.banner-text a {
+  border: 1px solid #fff;
+  padding: 20px 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  color: #fff;
+  position: relative;
+  left: 25%;
+}
+
+.banner-text a:hover {
+  background-color: #fff;
+  color: #333;
+  transition: 0.5s;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  flex-wrap: wrap;
+}
+
+.row {
+  margin-top: 75px;
+}
+
+.subheading-text {
+  margin-top: 50px;
+  margin-bottom: 75px;
+  font-size: 50px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase; 
+}
+
+.destination-image {
+  width: 750px;
+  height: 375px;
+  margin-left: 75px;
+  border: 5px solid white;
+}
+
+.column-heading-3 {
+  color: #000;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.column-paragraph {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #1E1E1E;
+  font-style: italic;
+  line-height: 30px;
+  max-width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-japan {
+  color: #007DCA;
+}
+
+.text-iceland {
+  color: #8B84A8;
+}
+
+.text-rwanda {
+  color: #3C7025;
+}
+
+.button {
+  border: 1px solid #000;
+  padding: 20px 50px;
+  width: 20%;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 50px;
+  display: flex;
+  color: #000;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  left: 50%;
+}
+
+.button:hover {
+  background-color: #000;
+  color: #fff;
+  transition: 0.5s;
+}
+
+
+
+/* Footer */
+.footer {
+  position: relative;
+  background: #000;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+.menu__link:hover{
+	color: white;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.world-clock {
+  margin-top: 80px;
+  font-weight: bold;
+  /* display: flex; */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 55px;
+  color: #000;
+}

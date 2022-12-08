@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+  background: url(../images/banner-image.jpg);
+  height: auto;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  margin-top: 45px;
+  margin-right: 200px; 
+}
+
+li {
+  float: left;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.logo-image {
+  position: absolute;
+  top: 40px;
+  width: 217px;
+  height: 70px;
+}
+
+li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* Gallery CSS */
+
+.gallery-container {
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div.gallery {
+    margin-top: 100px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+
+  }
+
+/* Pricing table cSS */
+
+.pricing {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+  .pricing-plan {
+    flex: 1;
+    background-color: #1f262c;
+    margin: 15px 200px;
+    padding: 30px;
+    border-radius: 6px;
+    color: #fff;
+    max-height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .section {
+    display: block;
+    max-height: auto  ;
+  }
+
+  .pricing-plan h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #8CFFFF;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    text-align: center;
+    font-weight: bold;
+
+  }
+  .pricing-plan p {
+    margin-top: 0;
+  }
+  .pricing-plan p span {
+    font-size: 30px;
+  }
+  .pricing-plan ul {
+    margin: 0 0 35px;
+    /* padding-left: 16px; */
+    list-style: none;
+    /* line-height: 1.8; */
+    color: #b5b5b5;
+    width: 100%;
+  }
+
+  .pricing-plan ul li {
+    width: 100%;
+    font-size: 20px;
+    /* line-height: 4; */
+  }
+
+
+
+  .pricing-plan ul li::before {
+    content: "•";
+    color: #8CFFFF;
+    display: inline-block;
+    width: 20px;
+    margin-left: -15px;
+    position: relative;
+    top: 4px;
+    font-size: 32px;
+    line-height: 1.5;
+  }
+  .pricing-plan a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+    background: #8CFFFF;
+    border: 2px solid #8CFFFF;
+    border-radius: 5px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+  }
+  .pricing-plan a:hover {
+    background-color: #1f262c;
+  }
+
+  .button {
+    border: 1px solid #fff;
+    padding: 20px 50px;
+    width: 20%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 50px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    left: 40%;
+
+  }
+  
+  .button:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+  }
+  
+
+  
+/* Footer CSS */
+
+/* Footer */
+.footer {
+    position: relative;
+    background: #000;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 50px; */
+  }
+  
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+  }
+  .menu__link:hover{
+      color: white;
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }
+  
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
